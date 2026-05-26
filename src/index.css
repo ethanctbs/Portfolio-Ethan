@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html, body {
+    height: 100%;
+    overflow: hidden;
+  }
+  body {
+    background-color: #ffffff;
+    @apply text-slate-900 font-sans antialiased;
+  }
+  * {
+    box-sizing: border-box;
+  }
+}
